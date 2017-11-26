@@ -1,0 +1,57 @@
+#todoDiv{
+    background-color:#c4c4c4;
+    height: 500px;
+    width: 600px;
+    margin-top: 40px;
+    
+
+}
+#topDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:   #adccfa;
+    width: 600px;
+    height: 80px;
+    font-size:30px;
+    font-weight: bold;
+
+}
+img#finished{
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+#topDiv>div{
+    margin: 15px;
+}
+#bottomDiv{
+    background-color: #bdd6fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    height: 420px;
+}
+#addDiv>div{
+    margin: 10px;
+}
+button{
+    margin-left: 5px;
+    height: 20px;
+    width: 40px;
+}
+#listDiv{
+    font-size: 16px;
+}
+form label{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+form>div{
+    width: 580px;
+    height: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,49 @@
+#menus{
+    display: flex;
+    background-color: #8bb7f8;
+    width: 300px;
+    height: 500px;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.item{
+    color: white;
+    font-weight: 700;
+    height: 50px;
+    width: 300px;
+    /*background-color: #aefbb0;*/
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemDiv{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    width: 40%;
+}
+.itemIcon{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    width: 40%;
+}
+.item span{
+    margin-right: 15px;
+}
+span,label:hover{
+    cursor: pointer;
+}
+.num-todo{
+    margin-left: 80px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 19px;
+    border-radius:18px;
+    background-color: #505bc2;
+}

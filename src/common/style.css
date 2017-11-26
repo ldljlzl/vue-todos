@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: red;*/
+    background:  -webkit-gradient(linear, 0 0, 0 50%, from(#9ba8e3), to(#0f28dd));
+}
+#container{
+    display: flex;
+    height: 100%;
+}
+#data{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+#todo{
+    width: 800px;
+    height: 600px;
+    /*background-color: #0f28dd*/
+}
+img:hover{
+    cursor: pointer;
+}
